@@ -18,25 +18,24 @@ The Vue Webpack install creates the following structure
 
 ### Project creation
 The base of this Project is the webpack prepack.
->>vue init webpack ResourceOrganizer
+>> vue init webpack ResourceOrganizer
 
 
 ## Dependencies
 ### Vuetify  dependencies 
->>npm install --save vuetify
+>> npm install --save vuetify
 
 ### Karma Chrome launcher
->>npm install karma-chrome-launcher --save-dev
+>> npm install karma-chrome-launcher --save-dev
 
 ## adding documentation capabilities with [jsdoc](https://github.com/jsdoc3/jsdoc)
->>npm install --save-dev jsdoc
->>npm install --save-dev jsdoc-vue
->>node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
+>> npm install --save-dev jsdoc
+>> npm install --save-dev jsdoc-vue
+>> node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 
 The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json
 
 
 ## Screenshots
-###1
-![alt screenshot] [logo]
-[logo]: https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png
+screenshot:
+![alt screenshot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png)
