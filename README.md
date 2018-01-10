@@ -40,14 +40,16 @@ The output of this command will produce the docs/ directory as specified in conf
 
 
 ## Screenshots
+
+### Component Demo
 ```
 npm run dev
 ```
-
 produces the following screenshot:
 ![alt screenshot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png)
 
 
+### Documentation 
 ```
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 ```
