@@ -1,10 +1,11 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+
 import Vue from 'vue'
 import Vuetify from 'vuetify'
+
 import CityDirectory from './components/city-directory'
 import DetailDisplay from './components/detail-display.vue'
 import SummaryDisplay from './components/summary-display.vue'
+
 import {siteTestData} from './util.js'
 
 Vue.use(Vuetify)
@@ -19,6 +20,7 @@ Vue.component('summary-display', SummaryDisplay)
 new Vue({
   el: '#app',
   data: function () { return {siteData: '', debug: true} },
+  //Grab site data which will populate the CityDirectory component
   created: function () { this.siteData = siteTestData() },
   components: {'city-directory': CityDirectory}
 })
