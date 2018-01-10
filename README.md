@@ -14,7 +14,7 @@ The Vue Webpack scaffold creates the following structure
 * `test/unit/specs` - directory with Karma test specs for web components in this app
 * `build/` - build scripts
 * `config/` - configurations
-* `index.html` - Need to add YOUR google api key
+* `index.html` - Need to add *YOUR* google api key
 
 ```
 vue init webpack ResourceOrganizer
@@ -31,7 +31,7 @@ npm install karma-chrome-launcher --save-dev
 ```
 #### Documentation [jsdoc](https://github.com/jsdoc3/jsdoc)
 
-```shell
+```
 npm install --save-dev jsdoc
 npm install --save-dev jsdoc-vue
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
