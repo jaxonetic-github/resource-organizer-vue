@@ -35,6 +35,8 @@ The base of this Project is the webpack prepack.
 
 The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-
+## Screenshots
+###1
+![alt screenshot] [logo]
+[logo]: https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png
