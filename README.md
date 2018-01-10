@@ -16,10 +16,12 @@ The Vue Webpack install creates the following structure
 * `config/` - configurations
 * `index.html` - Need to add YOUR google api key
 
-### Project creation
-The base of this Project is the webpack prepack.
->> vue init webpack ResourceOrganizer
+#### Project creation
+The base of this Project comes from the [Vue.js](http://vuejs.org) webpack template.
 
+```
+vue init webpack ResourceOrganizer
+```
 
 ##  Extra Dependencies
 #### Vuetify   
