@@ -1,4 +1,4 @@
-# resource_organizer
+## resource Organizer
 
 > A Vue.js project with webpack, vueloader, karma/mocha, and eslinting
 
@@ -15,6 +15,8 @@ The Vue Webpack install creates the following structure
 * `test/unit/specs` - directory with Karma test specs for web components in this app
 * `build/` - build scripts
 * `config/` - configurations
+* `index.html` - Need to add YOUR google api key
+
 
 # Added  dependencies 
 >>npm install --save vuetify
