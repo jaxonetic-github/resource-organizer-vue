@@ -1,13 +1,13 @@
-# Resource Organizer Vue Web Component
+# Resource Organizer Vue.js Web Component
 
-> A Vue.js project with webpack, vueloader, karma/mocha
+> A Vue.js project with webpack, vueloader, karma/mocha tests,
 
 See index.html, main.js, src/components/ for relevant front-end code.
 Karma test are in test/unit/specs
 
 
 ## Project Structure
-The Vue Webpack install creates the following structure
+The Vue Webpack scaffold creates the following structure
 * `src/components` - folder with my custom `.vue` components
 * `src/css` - put custom app CSS styles here. Don't forget to import them in `main.js`
 * `src/main.js` - main app file where you include/import all required libs and init app
@@ -15,9 +15,6 @@ The Vue Webpack install creates the following structure
 * `build/` - build scripts
 * `config/` - configurations
 * `index.html` - Need to add YOUR google api key
-
-#### Project creation
-The base of this Project comes from the [Vue.js](http://vuejs.org) webpack template.
 
 ```
 vue init webpack ResourceOrganizer
@@ -34,7 +31,7 @@ npm install karma-chrome-launcher --save-dev
 ```
 #### Documentation [jsdoc](https://github.com/jsdoc3/jsdoc)
 
-```
+```shell
 npm install --save-dev jsdoc
 npm install --save-dev jsdoc-vue
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
