@@ -46,3 +46,10 @@ npm run dev
 
 produces the following screenshot:
 ![alt screenshot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png)
+
+
+```
+node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
+```
+produces:
+![alt docuScreenShot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/jsdoc-screenshot.png)
