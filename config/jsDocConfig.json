@@ -1,0 +1,31 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": ["src/util.js","src/components/city-directory.vue", "src/components/detail-display.vue", "src/components/summary-display.vue"],
+
+        "includePattern": ".+\\.(vue|js)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+
+ "opts": {
+        "template": "templates/default",  // same as -t templates/default
+        "encoding": "utf8",               // same as -e utf8
+        "destination": "./docs/"         // same as -d ./out/
+       // "recurse": true,                  // same as -r
+    },
+
+    "plugins": ["node_modules/jsdoc-vue",
+    "plugins/markdown",
+    "plugins/summarize"],
+        "recurseDepth": 10,
+
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "default": {
+            "outputSourceFiles": true
+        }
+    }
+}

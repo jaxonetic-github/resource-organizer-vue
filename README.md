@@ -17,12 +17,19 @@ The Vue Webpack install creates the following structure
 * `config/` - configurations
 * `index.html` - Need to add YOUR google api key
 
-
-# Added  dependencies 
+## Dependencies
+# Vuetify  dependencies 
 >>npm install --save vuetify
 
-In order for karma to use chrome
+# Karma Chrome launcher
 >>npm install karma-chrome-launcher --save-dev
+
+#adding documentation capabilities with [jsdoc](https://github.com/jsdoc3/jsdoc)
+>>npm install --save-dev jsdoc
+>>npm install --save-dev jsdoc-vue
+>>node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
+
+The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
