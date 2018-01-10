@@ -20,7 +20,7 @@ Vue.component('summary-display', SummaryDisplay)
 new Vue({
   el: '#app',
   data: function () { return {siteData: '', debug: true} },
-  //Grab site data which will populate the CityDirectory component
+  // Grab site data which will populate the CityDirectory component
   created: function () { this.siteData = siteTestData() },
   components: {'city-directory': CityDirectory}
 })

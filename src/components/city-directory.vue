@@ -48,7 +48,6 @@ export default {
   },
 
   created: function () {
-    console.log('city-directory created')
      // loop through and create sectionname/navigationIndex Pairing for menu options
     for (let i = 0; (i < this.siteData.tableData.length); i++) {
       this.navigationSections.push({title: this.siteData.tableData[i].section, value: i})

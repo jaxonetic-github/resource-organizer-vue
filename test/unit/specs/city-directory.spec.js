@@ -14,7 +14,7 @@ describe('City Directory Vue Web Component', () => {
   var completeSiteData = siteTestData()
   var vm = null
 
-      // runs before all tests in this block
+  // setup the Vue vm first
   before(function () {
     const Constructor = Vue.extend(CityDirectory)
     vm = new Constructor({propsData: {siteDataReceived: completeSiteData},
