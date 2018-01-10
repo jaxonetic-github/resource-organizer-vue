@@ -1,13 +1,12 @@
-## resource Organizer
+# Resource Organizer Vue Web Component
 
-> A Vue.js project with webpack, vueloader, karma/mocha, and eslinting
+> A Vue.js project with webpack, vueloader, karma/mocha
 
-## Project creation
-The base of this Project is the webpack prepack.
->>vue init webpack ResourceOrganizer
+See index.html, main.js, src/components/ for relevant front-end code.
+Karma test are in test/unit/specs
 
 
-# Project Structure
+## Project Structure
 The Vue Webpack install creates the following structure
 * `src/components` - folder with my custom `.vue` components
 * `src/css` - put custom app CSS styles here. Don't forget to import them in `main.js`
@@ -17,14 +16,19 @@ The Vue Webpack install creates the following structure
 * `config/` - configurations
 * `index.html` - Need to add YOUR google api key
 
+### Project creation
+The base of this Project is the webpack prepack.
+>>vue init webpack ResourceOrganizer
+
+
 ## Dependencies
-# Vuetify  dependencies 
+### Vuetify  dependencies 
 >>npm install --save vuetify
 
-# Karma Chrome launcher
+### Karma Chrome launcher
 >>npm install karma-chrome-launcher --save-dev
 
-#adding documentation capabilities with [jsdoc](https://github.com/jsdoc3/jsdoc)
+## adding documentation capabilities with [jsdoc](https://github.com/jsdoc3/jsdoc)
 >>npm install --save-dev jsdoc
 >>npm install --save-dev jsdoc-vue
 >>node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose

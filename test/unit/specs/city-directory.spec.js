@@ -45,9 +45,5 @@ describe('City Directory Vue Web Component', () => {
       console.log(vm.navigationIndex, "===", vm.$el.querySelector('#detail-display').textContent);
       assert.ok(vm.$el.querySelector('#detail-display'))
     }) 
-    it('vue-test-utils.sandbox', () => {
-      // Now mount the component and you have the wrapper
-      assert.ok(vm.$el.querySelector('#summary-display'))
-    }) 
   })
 })
