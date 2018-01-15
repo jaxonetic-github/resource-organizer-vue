@@ -1,6 +1,6 @@
 # Resource Organizer Vue.js Web Component
 
-> A Vue.js project with webpack, vueloader, karma/mocha tests,
+> A Vue.js project with webpack, vueloader, karma/mocha tests, ...
 
 See index.html, main.js, src/components/ for relevant front-end code.
 Karma test are in test/unit/specs
@@ -26,8 +26,14 @@ vue init webpack ResourceOrganizer
 npm install --save vuetify
 ```
 #### Karma Chrome launcher
+Install Karma Chrome launcher if using Chrome Browser
 ```
 npm install karma-chrome-launcher --save-dev
+```
+
+To run tests
+```
+npm run test
 ```
 #### Documentation [jsdoc](https://github.com/jsdoc3/jsdoc)
 
@@ -49,7 +55,7 @@ produces:
 ![alt screenshot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png)
 
 
-### Documentation 
+## Documentation 
 ```
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 ```

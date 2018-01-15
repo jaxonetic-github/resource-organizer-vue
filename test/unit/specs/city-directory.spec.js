@@ -31,19 +31,19 @@ describe('City Directory Vue Web Component', () => {
     })
 
     it('changes displayed data on menu change', () => {
-      let initialExpectedIndex = 0;
-      let newTestIndex = 2;
+      let initialExpectedIndex = 0
+      let newTestIndex = 2
       // starting index should default to zeroth index
       assert.equal(vm.navigationIndex, initialExpectedIndex)
-      
+
       // when menu clicked vm.navClicked is called to update the navIndex to specified index
       vm.navClicked(newTestIndex)
 
       // Asserting the internal index has changed and data has changed in sub components.
       assert.equal(vm.navigationIndex, newTestIndex)
 
-      console.log(vm.navigationIndex, "===", vm.$el.querySelector('#detail-display').textContent);
+      console.log(vm.navigationIndex, "===", vm.$el.querySelector('#detail-display').textContent)
       assert.ok(vm.$el.querySelector('#detail-display'))
-    }) 
+    })
   })
 })

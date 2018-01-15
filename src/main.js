@@ -1,7 +1,7 @@
 
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-
+import VuetifyCSS from 'vuetify/dist/vuetify.min.css'
 import CityDirectory from './components/city-directory'
 import DetailDisplay from './components/detail-display.vue'
 import SummaryDisplay from './components/summary-display.vue'
@@ -19,7 +19,7 @@ Vue.component('summary-display', SummaryDisplay)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  data: function () { return {siteData: '', debug: true} },
+  data: function () { return {siteData: ''} },
   // Grab site data which will populate the CityDirectory component
   created: function () { this.siteData = siteTestData() },
   components: {'city-directory': CityDirectory}

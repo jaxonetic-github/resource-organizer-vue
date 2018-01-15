@@ -2,7 +2,7 @@
 // Import Vue and the component being tested
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-//import {assert} from 'mocha'
+import {assert} from 'mocha'
 import DetailDisplay from '../../../src/components/detail-display.vue'
 import {siteTestData} from '../../../src/util.js'
 
