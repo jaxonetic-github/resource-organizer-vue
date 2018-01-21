@@ -45,17 +45,20 @@ node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json
 
 
-## Screenshots
+## Screenshots and Demos
 
-### Component Demo
+### Component Screenshot
 ```
 npm run dev
 ```
 produces:
 ![alt screenshot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/resource-directory-screenshot.png)
 
+### Demos
+See part of it here. [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp)
 
-## Documentation 
+
+### Documentation 
 ```
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 ```
