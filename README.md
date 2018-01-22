@@ -1,8 +1,8 @@
-## Demo
+### Demo
 See part of it here. [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp)
 
 
-## Project Structure
+### Project Structure
 Using the Vue Webpack scaffold and jsDocs, you get a structure below. 
 * `src/components` - my custom `.vue` components
 * `docs` - See details below.
