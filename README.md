@@ -1,4 +1,4 @@
-### Demo
+## Demo
 See part of it here. [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp)
 
 
@@ -11,7 +11,7 @@ Using the Vue Webpack scaffold and jsDocs, you get a structure below.
 * `test/unit/specs` - directory with Karma test specs for web components in this app
 * `build/` - build scripts
 * `config/` - configurations
-* `index.html` - Need to add *YOUR* google api key
+* `index.html` - Need to add google api key.  I may not always provide it.  That is why I made the screenshot.
 
 ```
 vue init webpack ResourceOrganizer
