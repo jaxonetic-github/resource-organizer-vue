@@ -1,5 +1,5 @@
 ### Demo
-See part of it here. [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp)
+See part of it here as a [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp)
 
 
 ### Project Structure
