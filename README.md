@@ -24,9 +24,8 @@ npm install --save-dev jsdoc
 npm install --save-dev jsdoc-vue
 node_modules/.bin/jsdoc  -c  config/jsDocConfig.json --verbose
 ```
-The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json
+The output of this command will produce the docs/ directory as specified in config/jsDocConfig.json and,
 
-produces:
 ![alt docuScreenShot](https://github.com/jaxonetic-github/resource-organizer-vue/blob/master/src/assets/jsdoc-screenshot.png)
 
 ### Component Screenshot
