@@ -42,7 +42,7 @@ describe('City Directory Vue Web Component', () => {
       // Asserting the internal index has changed and data has changed in sub components.
       assert.equal(vm.navigationIndex, newTestIndex)
 
-      console.log(vm.navigationIndex, "===", vm.$el.querySelector('#detail-display').textContent)
+      console.log(vm.navigationIndex, '===', vm.$el.querySelector('#detail-display').textContent)
       assert.ok(vm.$el.querySelector('#detail-display'))
     })
   })

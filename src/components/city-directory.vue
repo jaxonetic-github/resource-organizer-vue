@@ -48,6 +48,16 @@ export default {
   },
 
   created: function () {
+    const tabledatakeys = Object.keys(this.siteData.tableData)
+    const tabledataentries = Object.entries(this.siteData.tableData)
+    console.log(tabledatakeys, '::First::---->\n', tabledataentries.length)
+    console.log('::Created::---->\n',tabledataentries[tabledatakeys[0]][1].section.substring(0))
+
+    console.log('::Created::---->\n', typeof  tabledataentries[tabledatakeys[0]][1].section.substring(0))
+    console.log('::Created::---->\n', tabledataentries[tabledatakeys[1]][1].section.substring(0))
+    console.log('::Created::---->\n', tabledataentries[tabledatakeys[2]][1].section.substring(0))
+
+
      // loop through and create sectionname/navigationIndex Pairing for menu options
     for (let i = 0; (i < this.siteData.tableData.length); i++) {
       this.navigationSections.push({title: this.siteData.tableData[i].section, value: i})

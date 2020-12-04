@@ -14,9 +14,8 @@ Vue.use(Vuetify)
  *   Data should populate sections for header text, detail text, and section text 
  */
 describe('Summary Display Vue Web Component', () => {
-  var completeSiteData = siteTestData()
-  var vm = null
-
+  var completeSiteData = siteTestData();
+  var vm = null;
     // runs before all tests in this block
   before(function () {
     const Constructor = Vue.extend(SummaryDisplay)

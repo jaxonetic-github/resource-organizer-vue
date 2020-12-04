@@ -1,7 +1,7 @@
 
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import VuetifyCSS from 'vuetify/dist/vuetify.min.css'
+// import VuetifyCSS from 'vuetify/dist/vuetify.min.css'
 import CityDirectory from './components/city-directory'
 import DetailDisplay from './components/detail-display.vue'
 import SummaryDisplay from './components/summary-display.vue'
@@ -16,6 +16,7 @@ Vue.config.productionTip = false
 Vue.component('detail-display', DetailDisplay)
 Vue.component('summary-display', SummaryDisplay)
 
+console.log(typeof siteTestData());
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
