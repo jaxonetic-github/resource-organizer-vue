@@ -16,7 +16,8 @@ Vue.config.productionTip = false
 Vue.component('detail-display', DetailDisplay)
 Vue.component('summary-display', SummaryDisplay)
 
-console.log(typeof siteTestData());
+console.log(typeof siteTestData())
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -11,11 +11,11 @@ Vue.use(Vuetify)
 /**
  *   Simple and Basic Test cases for a Component which displays data from props
  *
- *   Data should populate sections for header text, detail text, and section text 
+ *   Data should populate sections for header text, detail text, and section text
  */
 describe('Summary Display Vue Web Component', () => {
-  var completeSiteData = siteTestData();
-  var vm = null;
+  var completeSiteData = siteTestData()
+  var vm = null
     // runs before all tests in this block
   before(function () {
     const Constructor = Vue.extend(SummaryDisplay)

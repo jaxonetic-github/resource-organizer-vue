@@ -9,9 +9,9 @@ import {siteTestData} from '../../../src/util.js'
 Vue.use(Vuetify)
 
 /**
- *   Simple and Basic Test cases for a Component which displays data from props
+ * Simple and Basic Test cases for a Component which displays data from props
  *
- *   Data should populate sections for header text, detail text, and section text 
+ * Data should populate sections for header text, detail text, and section text
  */
 describe('Detail Display Vue Web Component', () => {
   var completeSiteData = siteTestData()
@@ -32,9 +32,10 @@ describe('Detail Display Vue Web Component', () => {
   it('displays info text', () => {
     // grab the test text
     let itemTestText = completeSiteData.tableData[0].items[0].title
-console.log("Display info text elem::", vm.$el.querySelector('.card__title').textContent.trim());
+    console.log(itemTestText, 'Display info text elem::', vm.$el.querySelector('.card__title').textContent.trim())
     // grab the text from the innerhtml of the component
-    let itemRealText = vm.$el.querySelector('.card__title').textContent.trim();
+    let itemRealText = vm.$el.querySelector('.card__title').textContent.trim()
+    console.log(itemRealText, 'Display info text elem::', itemTestText)
 
    // assert.equal(itemTestText, itemRealText)
   })
@@ -48,14 +49,14 @@ console.log("Display info text elem::", vm.$el.querySelector('.card__title').tex
 
     assert.equal(itemTestText, itemRealText)
   })
-  
+
   it('displays section title text', () => {
     // grab the test text
     let itemTestText = completeSiteData.tableData[0].section
 
     // grab the text from the innerhtml of the component
     let itemRealText = vm.$el.querySelector('.card__title').textContent
-    
+
     assert(itemRealText.includes(itemTestText))
   })
 })
