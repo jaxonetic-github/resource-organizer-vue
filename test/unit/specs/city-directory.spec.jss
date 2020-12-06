@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import {assert} from 'mocha'
+import { mount } from '@vue/test-utils'
 import DetailDisplay from '../../../src/components/detail-display.vue'
 import SummaryDisplay from '../../../src/components/summary-display.vue'
 import CityDirectory from '../../../src/components/city-directory.vue'
