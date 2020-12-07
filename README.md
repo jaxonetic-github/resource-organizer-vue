@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jaxonetic-github/resource-organizer-vue.svg?branch=master)](https://travis-ci.com/jaxonetic-github/resource-organizer-vue)
+
 ### Project Structure
 Using the Vue Webpack scaffold and jsDocs, you get a structure below. 
 * `src/components` - my custom `.vue` components
