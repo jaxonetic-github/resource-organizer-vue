@@ -1,7 +1,7 @@
 
 //// Import Vue and the component being tested
-//import Vue from 'vue'
-//import Vuetify from 'vuetify'
+import Vue from 'vue'
+import Vuetify from 'vuetify'
 import {assert} from 'mocha'
 import { mount } from '@vue/test-utils'
 import { render, fireEvent } from '@testing-library/vue'
@@ -33,7 +33,8 @@ describe('Summary Display Vue Web Component', () => {
 
     let subheaderTestText = completeSiteData.tableData[0].latest[0].header
     const tstHeader = "David Byrne Addresses the Current Economic Crises Facing the Arts";
-getByText(tstHeader);
+    getByText(tstHeader);
+    getByText(subheaderTestText);
     //assert.equal(subheadersText, subheaderTestText)
   })
 /*

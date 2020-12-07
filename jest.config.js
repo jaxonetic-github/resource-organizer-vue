@@ -15,6 +15,8 @@ transform: {
 */
   transformIgnorePatterns: [
     // "node_modules/"
+
+  
     // "node_modules/(?!epic-spinners)",
   ],
   moduleNameMapper: {
@@ -27,5 +29,5 @@ transform: {
   testMatch: [
     '**/test/unit/specs/*.spec.js'
   ],
-  
+    setupFiles: ['<rootDir>/jest.setup.js'],
 }
